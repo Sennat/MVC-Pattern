@@ -1,9 +1,3 @@
-/* ************************************************************************************
- * Copyright (C) Nov 24, 2017, Natnael Alemayehu, All rights Reserved. Unauthorized 
- * copying of this file and/or distributed without, the express permission of 
- * Natnael Alemayehu is strictly prohibited. Written by Natnael Alemayehu 2:05:22 AM.
- * ************************************************************************************
- */
 
 package mvc;
 
@@ -145,7 +139,7 @@ public class View extends Application implements EventHandler<ActionEvent>{
 			flag.setText("Error: enter student id");
 			flag.setStyle("-fx-font: normal 14px 'serif'; -fx-text-fill: #FF0000;");
 		}
-		
+		//To clear all inputs when reset buton clicked
 		if((event.getSource() == resetButton)) {
 			inputId.clear();
 			residentradio.setSelected(false);
