@@ -9,6 +9,7 @@ import javafx.stage.Stage;
  * that a controller acts on both model and view. It controls the 
  * data flow into model object and updates the view whenever data 
  * changes. It keeps view and model separate.
+ * @author Natnael Alemayehu
  *
  */
 public class Controller extends Application {
